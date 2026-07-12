@@ -110,8 +110,17 @@ nav {
 
 
 .speaker-container {
+    width: 90vw;
     padding: 80px 60px;
     text-align: center;
+    margin: 0 auto;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    
 }
 
 .speaker-container h1 {
@@ -121,8 +130,6 @@ nav {
 }
 
 .speaker-card {
-    height: 460px;
-    width: 644px;
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid #E5E7EB;
@@ -130,8 +137,9 @@ nav {
 
 
 .speaker-image {
-    width: 642px;
-    height: 324px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
@@ -158,8 +166,169 @@ nav {
 
 
 
-.container {
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
+
+.price-section {
+    width: 100%;
+    height: 750px;
+    margin-top: 50px;
+    
+}
+
+
+
+.price-container {
+    width: 90vw;
+    padding: 0px 60px 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+
+
+
+.price-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
+}
+
+
+.price-content h1 {
+    color: #0D1B2A;
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+
+.price-content p {
+    color: #575757;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.pricing-cards {
+    padding: 48px 0px 60px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 35px;
+}
+
+
+.card {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    gap: 20px;
+    border-radius: 12px;
+}
+
+
+.price-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.price-info .person {
+    font-size: 14px;
+    color: #888888;
+}
+
+
+
+.price-info h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #0D1B2A;
+}
+
+
+
+/* .features ul li{
+    display: flex;
+    gap: 10px;
+} */
+
+
+.price-btn {
+    margin-top: 10px;
+    color:#2563EB;
+    border: 1px solid #2563EB;
+    background-color: transparent;
+    padding: 10px 28px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+
+.pricing-cards #highlighted-card {
+    border: 1px solid #2563EB;
+    background-color: #0D1B2A;
+    color: white;
+}
+
+
+
+#highlighted-card .price-info p {
+    color: #93C5FD;
+}
+
+#highlighted-card .price-info .person {
+    color: #888888;
+}
+
+
+#highlighted-card .price-info h2 {
+    color: white;
+}
+
+
+#highlighted-card .price-btn {
+    color: white;
+    background-color: #2563EB;
+}
+
+
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.features li::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #2563EB;
+    margin-top: 8px;
+
+}
+
+
+#card3-btn {
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
 }
