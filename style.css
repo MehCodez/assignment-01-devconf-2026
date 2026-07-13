@@ -6,7 +6,11 @@
 
 body {
     overflow-x: hidden;
+    font-family: "Inter", sans-serif;
 }
+
+
+/* NAV SECTION */
 
 nav {
     padding: 10px 60px;
@@ -44,7 +48,7 @@ nav {
 
 
 .register-button {
-    width: 150px;
+    width: 160px;
     padding: 10px 28px;
     background-color: #1D4ED8;
     border-radius: 5px;
@@ -62,6 +66,7 @@ nav {
 }
 
 
+/* HERO SECTION */
 
 .hero {
     width: 100%;
@@ -73,13 +78,11 @@ nav {
 
 
 .hero-container {
-    /* width: 1320px; */
-    /* height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 180px;
+    gap: 170px;
 
 }
 
@@ -108,6 +111,8 @@ nav {
 }
 
 
+
+/* SPEAKER SECTION */
 
 .speaker-container {
     width: 90vw;
@@ -166,6 +171,7 @@ nav {
 
 
 
+/* PRICE SECTION */
 
 .price-section {
     width: 100%;
@@ -173,7 +179,6 @@ nav {
     margin-top: 50px;
     
 }
-
 
 
 .price-container {
@@ -185,7 +190,6 @@ nav {
     flex-direction: column;
  
 }
-
 
 
 .price-content {
@@ -232,6 +236,9 @@ nav {
     border-radius: 12px;
 }
 
+.card:hover {
+     box-shadow: 0 10px 20px #1b5be4;
+}
 
 .price-info {
     display: flex;
@@ -262,8 +269,8 @@ nav {
     padding: 10px 28px;
     border-radius: 5px;
     font-weight: 600;
+    cursor: pointer;
 }
-
 
 
 .pricing-cards #highlighted-card {
@@ -271,7 +278,6 @@ nav {
     background-color: #0D1B2A;
     color: white;
 }
-
 
 
 #highlighted-card .price-info p {
@@ -292,7 +298,6 @@ nav {
     color: white;
     background-color: #2563EB;
 }
-
 
 
 .features ul {
@@ -329,21 +334,23 @@ nav {
 
 
 
-.hackthon-container {
+/* AI SECTION */
+
+.hackathon-container {
     width: 100%;
     padding: 50px 0;
     background-color: #F8FAFC;
 }
 
 
-.hackthon-content {
+.hackathon-content {
     width: 90vw;
     margin: 0 auto;
     text-align: center;
 }
 
 
-.hackthon-content h2{
+.hackathon-content h2{
     font-size: 32px;
     font-weight: 700;
     color: #0D1B2A;
@@ -352,7 +359,7 @@ nav {
 }
 
 
-.hackthon-content > p{
+.hackathon-content > p{
     max-width: 650px;
     margin: 0 auto 50px;
     color: #575757;
@@ -361,7 +368,7 @@ nav {
 }
 
 
-.challange-cards{
+.challenge-cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
@@ -405,7 +412,7 @@ nav {
     color: #2563EB;
 }
 
-.hackthon-btn {
+.hackathon-btn {
     background-color: #2563EB;
     color: white;
     border: none;
@@ -417,13 +424,13 @@ nav {
     margin-top: 30px;
 }
 
-.hackthon-btn:hover {
+.hackathon-btn:hover {
     background-color: #1D4ED8;
 }
 
 
 
-
+/* FOOTER */
 
 .footer{
     background-color: #0D1B2A;
@@ -505,7 +512,6 @@ nav {
     text-decoration: none;
     color: #9CA3AF;
     font-size: 14px;
-    transition: 0.3s;
 }
 
 .footer-links a:hover{
